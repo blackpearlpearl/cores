@@ -1,6 +1,6 @@
 {
   "name": "Cores",
   "tagline": "the cores i learned ",
-  "body": "\"enable_mathjax\": true\r\n<!-- mathjax config similar to math.stackexchange -->\r\n<script type=\"text/x-mathjax-config\">\r\nMathJax.Hub.Config({\r\n    jax: [\"input/TeX\", \"output/HTML-CSS\"],\r\n    tex2jax: {\r\n        inlineMath: [ ['$', '$'] ],\r\n        displayMath: [ ['$$', '$$']],\r\n        processEscapes: true,\r\n        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']\r\n    },\r\n    messageStyle: \"none\",\r\n    \"HTML-CSS\": { preferredFont: \"TeX\", availableFonts: [\"STIX\",\"TeX\"] }\r\n});\r\n</script>\r\n<script type=\"text/javascript\" src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\"></script>\r\n\r\n\r\n\r\n\\\\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\\\)\r\n",
+  "body": "<img src=\"http://chart.googleapis.com/chart?cht=tx&chl= x=\\frac{1}{2},  x_1,x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\" style=\"border:none;\">",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
