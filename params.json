@@ -1,6 +1,6 @@
 {
   "name": "Cores",
   "tagline": "the cores i learned ",
-  "body": "<html>\r\n<head>\r\n<title>MathJax TeX Test Page</title>\r\n<script type=\"text/x-mathjax-config\">\r\n  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']]}});\r\n</script>\r\n<script type=\"text/javascript\" async\r\n  src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML\">\r\n</script>\r\n</head>\r\n<body>\r\nWhen $a \\ne 0$, there are two solutions to \\(ax^2 + bx + c = 0\\) and they are\r\n$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$\r\n</body>\r\n</html>",
+  "body": "<html>\r\n<head>\r\n<title>MathJax TeX Test Page</title>\r\n<script type=\"text/x-mathjax-config\">\r\n  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']]}});\r\n</script>\r\n<script type=\"text/javascript\" async\r\n  src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML\">\r\n</script>\r\n</head>\r\n<body>\r\n\r\n$$x = {-bbbbb \\pm \\sqrt{b^2-4ac} \\over 2a}.$$\r\n</body>\r\n</html>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
