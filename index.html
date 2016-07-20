@@ -1,277 +1,73 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
 
-  <title>Cores</title>
-  <meta name="description" content="the cores i learned ">
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Cores by blackpearlpearl</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <body>
+    <a id="forkme_banner" href="https://github.com/blackpearlpearl/cores">View on GitHub</a>
+    <div class="shell">
 
-</head>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Cores</h1>
+            <h2>the cores i learned </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Cores</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">the cores i learned </p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/blackpearlpearl/cores/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/blackpearlpearl/cores/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/blackpearlpearl/cores" class="code">View Cores on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <p>&lt;!doctype html&gt;
-
-</p>
-
-
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
-}
-table {
-    margin: 10px 0 15px 0;
-    border-collapse: collapse;
-}
-td,th { 
-    border: 1px solid #ddd;
-    padding: 3px 10px;
-}
-th {
-    padding: 5px 10px;  
-}
-
-a {
-    color: #0069d6;
-}
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
-}
-a img {
-    border: none;
-}
-p {
-    margin-bottom: 9px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
-}
-h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
-}
-h2 {
-    font-size: 24px;
-}
-h3 {
-    font-size: 18px;
-}
-h4 {
-    font-size: 16px;
-}
-h5 {
-    font-size: 14px;
-}
-h6 {
-    font-size: 13px;
-}
-hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
-}
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
-}
-blockquote p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-style: italic;
-}
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
-    padding: 0;
-}
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-* {
-    -webkit-print-color-adjust: exact;
-}
-<a href="https://github.com/media" class="user-mention">@media</a> screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:10px auto;
-    }
-}
-<a href="https://github.com/media" class="user-mention">@media</a> print {
-    body,code,pre code,h1,h2,h3,h4,h5,h6 {
-        color: black;
-    }
-    table, pre {
-        page-break-inside: avoid;
-    }
-}
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/blackpearlpearl/cores/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/blackpearlpearl/cores/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
 
-<p></p>Cores #
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p></p>
+
+
 
 <p>
-</p>
+$$\frac{1}{2}$$</p>
+      </section>
 
-<p></p>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/blackpearlpearl">blackpearlpearl</a> can be found on <a href="https://github.com/blackpearlpearl/cores">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
 
-
-
-<p></p>
-
-<h1>
-<a id="cores-" class="anchor" href="#cores-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cores #</h1>
-
-<table border="1">
-            <tr>
-                <td>501</td>
-                <td>Geometrical Optics</td>
-            </tr>
-            <tr>
-                <td>502</td>
-                <td>Optical Radiation and Matte</td>    
-            </tr>
-            <tr>
-                <td>513</td>
-                <td>Linear Systems and Fourier Optics</td>
-            </tr>
-            <tr>
-                <td>505</td>
-                <td>Introduction to Lasers</td>
-            </tr>
-            <tr>
-                <td>514</td>
-                <td>Guided Wave Optics</td>
-            </tr>
-            <tr>
-                <td>506</td>
-                <td>Electro-Optical Devices and Systems</td>
-            </tr>
- </table>
-
-<p> <img src="http://chart.googleapis.com/chart?cht=tx&amp;chl=%20x=%5Cfrac%7B1%7D%7B2%7D,%20%20x_1,x=%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D"></p>
-
-<h2>
-<a id="501" class="anchor" href="#501" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>501</h2>
-
-<h3>
-<a id="1-薄透镜" class="anchor" href="#1-%E8%96%84%E9%80%8F%E9%95%9C" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. 薄透镜</h3>
-
-<p>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-</p>
-$${{-b\pm\sqrt{{b^2}-4ac}}\over{2a}}$$
-
-
-<p>\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)</p>
-
-<p>$$\frac{1}{2}$$</p>
-
-<p>
-</p>
-        </article>
-      </div>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/blackpearlpearl" class="avatar"><img src="https://avatars0.githubusercontent.com/u/20544899?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/blackpearlpearl">blackpearlpearl</a> maintains <a href="https://github.com/blackpearlpearl/cores">Cores</a></p>
 
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/blackpearlpearl/cores/tarball/master" class="tar">tar</a><a href="https://github.com/blackpearlpearl/cores/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+    
+  </body>
 </html>
